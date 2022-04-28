@@ -13,3 +13,4 @@ C:\Users\Lucas - Senai\Documents\Projetos\Aula02\Aula02\obj\Debug\net5.0\Aula02.
 C:\Users\Lucas - Senai\Documents\Projetos\Aula02\Aula02\obj\Debug\net5.0\ref\Aula02.dll
 C:\Users\Lucas - Senai\Documents\Projetos\Aula02\Aula02\obj\Debug\net5.0\Aula02.pdb
 C:\Users\Lucas - Senai\Documents\Projetos\Aula02\Aula02\obj\Debug\net5.0\Aula02.genruntimeconfig.cache
+C:\Users\Lucas - Senai\Documents\Projetos\Aula02\Aula02\obj\Debug\net5.0\Aula02.csproj.AssemblyReference.cache
