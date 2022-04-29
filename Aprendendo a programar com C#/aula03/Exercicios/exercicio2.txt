@@ -1,0 +1,1 @@
+1 – Elabore um algoritmo que receba e calcule a idade média de 5 alunos.
