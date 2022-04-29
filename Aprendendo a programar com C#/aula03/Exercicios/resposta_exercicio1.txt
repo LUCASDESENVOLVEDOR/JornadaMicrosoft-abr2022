@@ -1,0 +1,23 @@
+ /*Usando os valores das variáveis, produza a seguinte saída na tela do console:
+
+                Produtos:
+                Computador, cujo preço é $ 2100,00
+                Mesa de escritório, cujo preço é $ 650,20
+
+                Registro: 30 anos de idade, código 5290 e gênero M
+
+                Medida com oito casas decimais: 53,23456700
+                Arredondado (três casas decimais): 53,235
+
+            */
+
+
+            //C2 => Converte para moeda. R$
+            Console.WriteLine("Produtos:");
+            Console.WriteLine("{0}, cujo preço é {1:C2}", produto1, preco1);
+            Console.WriteLine("{0}, cujo preço é {1:C2}", produto2, preco2);
+            Console.WriteLine(); //representa um espaco.
+            Console.WriteLine("Registro: {0} anos de idade, código {1} e gênero {2}", idade, codigo, genero);
+            Console.WriteLine(); //representa um espaco.
+            Console.WriteLine("Medida com oito casas decimais: {0:F8}", medida);
+            Console.WriteLine("Arredondado (três casas decimais): {0:F3}", medida);
