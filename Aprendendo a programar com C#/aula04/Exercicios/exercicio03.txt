@@ -1,0 +1,21 @@
+EXERCICIO DE SWITCH
+
+**Aumento de salário de acordo com o cargo**
+
+Uma empresa concederá um aumento de salário aos seus funcionários, variável de acordo com o cargo, conforme a tabela abaixo.
+
+Programa que lê o salário e o código do cargo de um funcionário e calcula o novo salário.
+
+Se o cargo do funcionário não estiver na tabela, ele recebe 40% de aumento.
+
+
+ Código     Cargo               Aumento
+
+        1               gerente             10%
+
+        2               engenheiro          20%
+
+        3               técnico             30%
+
+
+No final é mostrado o salário antigo, o novo salário e a diferença.

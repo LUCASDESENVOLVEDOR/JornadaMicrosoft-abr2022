@@ -6,6 +6,84 @@ namespace Aula04
     {
         static void Main(string[] args)
         {
+            Array();
+            //FOR();
+            //DoWhile01();
+           // While_Debug();
+            //SwitchCase();
+        }
+
+
+
+        static void Array()
+        {
+
+            //Array ("Vetor") é uma sequencia nao ordenada de itens.
+            //Todos os itens em um array devem ser do mesmo tipo.
+
+            int[] numeros_loteria = { 4, 8, 15, 16, 23, 42, 108 };
+
+            //indice
+
+            //0 = 4;
+            //1 = 8;
+            //2 = 15;
+
+            //Console.WriteLine(numeros_loteria[0]);     
+
+
+            for (int i = 0; i <= numeros_loteria.Length; i++)
+            {
+                Console.WriteLine(numeros_loteria[i]);
+            }
+
+
+        }
+
+        static void FOR()
+        {
+            //FOR = ("PARA")
+
+            int i; //contador;
+
+            //i = 1 = inicia em 1;
+            // i <= 50 = condicao para quantidade;
+            // i++ controle que vai adicionar i + 1 até chegar em 50.
+
+            for (i = 1; i <= 50; i++)
+            {
+                Console.WriteLine(i);
+            }
+        }
+
+        static void DoWhile01()
+        {
+            int numero = 1;
+            do  //faça.
+            {
+                Console.WriteLine(numero);
+                numero++;
+                //mesma coisa:   numero = numero + 1;
+            }
+            while (numero <= 50); //enquanto.
+
+
+            //codigo 02
+            //int numero;
+
+            do
+            {
+                Console.WriteLine("Digite um número:");
+                numero = int.Parse(Console.ReadLine());
+                Console.WriteLine("O número digitado foi {0}", numero);
+            }
+            while (numero != 10);
+
+        }
+
+
+        static void While_Debug()
+        {
             //F9 = INDICA ONDE SERA INICIADO O DEBUG.
             //F10 = VAI EXECUTAR LINHA POR LINHA
             //F5 = VAI EXECUTAR ATÉ O FINAL OU ATE O PROX BREAKPOINT.
@@ -14,12 +92,12 @@ namespace Aula04
 
             Console.WriteLine("Informe um número:");
 
-            int numero,soma;
-            numero =  int.Parse(Console.ReadLine());
+            int numero, soma;
+            numero = int.Parse(Console.ReadLine());
 
             soma = 0;
 
-            while (numero !=0) //enquanto essa condição for VERDADEIRA. (true)
+            while (numero != 0) //enquanto essa condição for VERDADEIRA. (true)
             {
                 soma = soma + numero;
                 Console.WriteLine("Informe um número:");
@@ -29,14 +107,12 @@ namespace Aula04
             Console.WriteLine("A soma dos números exibidos {0}", soma);
             Console.ReadKey(); //esperar ENTER para sair.
 
-           
-
-
 
 
 
 
         }
+
 
         static void SwitchCase()
         {
