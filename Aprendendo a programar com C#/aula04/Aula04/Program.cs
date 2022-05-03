@@ -32,7 +32,7 @@ namespace Aula04
             //Console.WriteLine(numeros_loteria[0]);     
 
 
-            for (int i = 0; i <= numeros_loteria.Length; i++)
+            for (int i = 0; i < numeros_loteria.Length; i++)
             {
                 Console.WriteLine(numeros_loteria[i]);
             }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucas - Senai\\Documents\\GitHub\\JornadaMicrosoft-abr2022\\Aprendendo a programar com C#\\aula04\\Aula04\\Aula04.csproj": {}
+    "C:\\Users\\Lucas - Senai\\Documents\\Projetos\\Aula05\\Aula05\\Aula05.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucas - Senai\\Documents\\GitHub\\JornadaMicrosoft-abr2022\\Aprendendo a programar com C#\\aula04\\Aula04\\Aula04.csproj": {
+    "C:\\Users\\Lucas - Senai\\Documents\\Projetos\\Aula05\\Aula05\\Aula05.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucas - Senai\\Documents\\GitHub\\JornadaMicrosoft-abr2022\\Aprendendo a programar com C#\\aula04\\Aula04\\Aula04.csproj",
-        "projectName": "Aula04",
-        "projectPath": "C:\\Users\\Lucas - Senai\\Documents\\GitHub\\JornadaMicrosoft-abr2022\\Aprendendo a programar com C#\\aula04\\Aula04\\Aula04.csproj",
+        "projectUniqueName": "C:\\Users\\Lucas - Senai\\Documents\\Projetos\\Aula05\\Aula05\\Aula05.csproj",
+        "projectName": "Aula05",
+        "projectPath": "C:\\Users\\Lucas - Senai\\Documents\\Projetos\\Aula05\\Aula05\\Aula05.csproj",
         "packagesPath": "C:\\Users\\Lucas - Senai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucas - Senai\\Documents\\GitHub\\JornadaMicrosoft-abr2022\\Aprendendo a programar com C#\\aula04\\Aula04\\obj\\",
+        "outputPath": "C:\\Users\\Lucas - Senai\\Documents\\Projetos\\Aula05\\Aula05\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lucas - Senai\\AppData\\Roaming\\NuGet\\NuGet.Config",
