@@ -14,3 +14,13 @@ C:\Users\Lucas - Senai\Documents\Projetos\Aula07\Aula07\obj\Debug\net5.0\Aula07.
 C:\Users\Lucas - Senai\Documents\Projetos\Aula07\Aula07\obj\Debug\net5.0\ref\Aula07.dll
 C:\Users\Lucas - Senai\Documents\Projetos\Aula07\Aula07\obj\Debug\net5.0\Aula07.pdb
 C:\Users\Lucas - Senai\Documents\Projetos\Aula07\Aula07\obj\Debug\net5.0\Aula07.genruntimeconfig.cache
+C:\Users\Lucas - Senai\Documents\Projetos\Aula07\Aula07\bin\Debug\net5.0\ClosedXML.dll
+C:\Users\Lucas - Senai\Documents\Projetos\Aula07\Aula07\bin\Debug\net5.0\DocumentFormat.OpenXml.dll
+C:\Users\Lucas - Senai\Documents\Projetos\Aula07\Aula07\bin\Debug\net5.0\ExcelNumberFormat.dll
+C:\Users\Lucas - Senai\Documents\Projetos\Aula07\Aula07\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Lucas - Senai\Documents\Projetos\Aula07\Aula07\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\Lucas - Senai\Documents\Projetos\Aula07\Aula07\bin\Debug\net5.0\System.IO.Packaging.dll
+C:\Users\Lucas - Senai\Documents\Projetos\Aula07\Aula07\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Lucas - Senai\Documents\Projetos\Aula07\Aula07\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.0\System.Drawing.Common.dll
+C:\Users\Lucas - Senai\Documents\Projetos\Aula07\Aula07\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Drawing.Common.dll
+C:\Users\Lucas - Senai\Documents\Projetos\Aula07\Aula07\obj\Debug\net5.0\Aula07.csproj.CopyComplete

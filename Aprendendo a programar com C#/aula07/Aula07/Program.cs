@@ -1,5 +1,7 @@
-﻿using System;
+﻿using ClosedXML.Excel;
+using System;
 using System.IO;
+using System.Linq;
 //biblioteca de referencia para utilizacao do FileStream.
 
 namespace Aula07
@@ -8,6 +10,23 @@ namespace Aula07
     {
         static void Main(string[] args)
         {
+            string enderecoArquivo = @"C:\Users\Lucas - Senai\Desktop\AULA07_DADOS\banco_de_dados.xlsx";
+
+            XLWorkbook arquivoExcel = new XLWorkbook(enderecoArquivo);
+            IXLWorksheet planilha = arquivoExcel.Worksheets.First(w => w.Name == "Plan1");
+
+            int totalLinhas = planilha.Rows().Count();
+
+            for (int l = 2; l < totalLinhas; l++)
+            {
+                var nome = planilha.Cell($"A{l}").Value.ToString();
+                var idade = planilha.Cell($"B{l}").Value.ToString();
+                Console.WriteLine(nome);
+            }
+        }    
+        static void Leituratxt()
+        {
+
             //Ler dados de arquivo local.
 
 
@@ -18,8 +37,8 @@ namespace Aula07
             string enderecoArquivo = @"C:\Users\Lucas - Senai\Desktop\AULA07_DADOS\dados.txt";
 
             //FileStream classe que estamos instanciando,
-               //estamos orientando onde esta o arquivo e o que deve ser feito.
-            
+            //estamos orientando onde esta o arquivo e o que deve ser feito.
+
             //preparacao do arquivo.
             FileStream arquivo = new FileStream(enderecoArquivo, FileMode.Open);
 
@@ -49,10 +68,12 @@ namespace Aula07
             arquivo.Close();
             leitor.Close();
 
+
+
         }
 
-
         //vamos criar uma funcao que vai receber um texto e devolver o profissional.
+
 
         static Profissional ConverterStringParaProfissional(string linha)
         {
