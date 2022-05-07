@@ -49,5 +49,31 @@ namespace consoleMVC.Models
             }
 
         }
+
+        public List<Produto> Ler()
+        {
+            List<Produto> listaProdutos = new List<Produto>();
+
+            //ler todas as linhas e vai retornar um array.
+            string[] linhas = File.ReadAllLines(caminhodobanco);
+
+            foreach (string item in linhas)
+            {
+                //1;Xbox;6.744,99
+                string[] atributos = item.Split(';');
+
+                Produto novoProduto = new Produto();
+
+                novoProduto.Codigo = int.Parse(atributos[0]);
+                novoProduto.Nome = atributos[1];
+                novoProduto.Preco = float.Parse(atributos[2]);
+
+                //adicionar o novo produto na lista.
+                listaProdutos.Add(novoProduto);
+
+            }
+            return listaProdutos;
+
+        }
     }
 }

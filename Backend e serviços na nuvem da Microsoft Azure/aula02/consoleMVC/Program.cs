@@ -1,4 +1,5 @@
-﻿using consoleMVC.Models;
+﻿using consoleMVC.Controllers;
+using consoleMVC.Models;
 using System;
 
 namespace consoleMVC
@@ -7,10 +8,9 @@ namespace consoleMVC
     {
         static void Main(string[] args)
         {
-            Produto produto = new Produto();
+            ProdutoController prod = new ProdutoController();
+            prod.ListarProdutos();
 
-
-           
         }
     }
 }
